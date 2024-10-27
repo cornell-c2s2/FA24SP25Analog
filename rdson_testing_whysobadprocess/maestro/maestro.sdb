@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>FA24SP25Analog_testbench_analog_switch_bootstrapped_1
+			<test>FA24SP25Analog_rdson_testing_whysobadprocess_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>testbench_analog_switch_bootstrapped</value>
+						<value>rdson_testing_whysobadprocess</value>
 					</option>
 					<option>lib
 						<value>FA24SP25Analog</value>
@@ -31,18 +31,11 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>nf
-						<value>1 2 3 4 5 6</value>
+					<var>VGS
+						<value>0</value>
 					</var>
 				</vars>
-				<outputs>
-					<output>(((1 * VT("/VIN")) - (1 * VT("/VOUT"))) / IT("/I5/VOUT"))
-						<evalType>point</evalType>
-					</output>
-					<output>(-1 * (((1 * VT("/VIN")) - (1 * VT("/VOUT"))) / IT("/I5/VOUT")))
-						<evalType>point</evalType>
-					</output>
-				</outputs>
+				<outputs></outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -54,7 +47,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">FA24SP25Analog_testbench_analog_switch_bootstrapped_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_rdson_testing_whysobadprocess_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
