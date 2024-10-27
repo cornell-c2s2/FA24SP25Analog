@@ -2,7 +2,7 @@
 <stimuliset>
     <namedstimuli>
         <stimuliname>CLK</stimuliname>
-        <timeStamp>06/10/2024;3:4:48:PM</timeStamp>
+        <timeStamp>27/10/2024;1:8:51:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -42,7 +42,7 @@
                 <cdfname>per</cdfname>
                 <prompt>Period</prompt>
                 <datatype>string</datatype>
-                <value>100n</value>
+                <value>40n</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -56,21 +56,21 @@
                 <cdfname>tr</cdfname>
                 <prompt>Rise time</prompt>
                 <datatype>string</datatype>
-                <value>1n</value>
+                <value>500.0p</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
                 <cdfname>tf</cdfname>
                 <prompt>Fall time</prompt>
                 <datatype>string</datatype>
-                <value>1n</value>
+                <value>500.0p</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
                 <cdfname>pw</cdfname>
                 <prompt>Pulse width</prompt>
                 <datatype>string</datatype>
-                <value>49n</value>
+                <value>19.5n</value>
                 <defvalue></defvalue>
             </parameter>
         </parameterset>
