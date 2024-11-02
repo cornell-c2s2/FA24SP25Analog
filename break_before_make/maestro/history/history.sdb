@@ -7,12 +7,12 @@
 			<uuid>{e26de350-c44d-4687-a3ce-e38ceb44dce9}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/dgk64/SKY130_PDK/FA24SP25Analog/non#2doverlap#2dclk/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/home/dgk64/SKY130_PDK/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/home/dgk64/SKY130_PDK/FA24SP25Analog/non#2doverlap#2dclk/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/home/dgk64/SKY130_PDK/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/home/dgk64/simulation/FA24SP25Analog/non-overlap-clk/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/FA24SP25Analog/non-overlap-clk/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<psfdir>/home/dgk64/simulation/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/home/dgk64/simulation/results/maestro/ExplorerRun.0</simdir>
 		</historyentry>
 	</history>
 </setupdb>

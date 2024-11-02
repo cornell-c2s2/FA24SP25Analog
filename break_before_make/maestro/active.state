@@ -3,8 +3,8 @@
 	<Test Name="FA24SP25Analog_non-overlap-clk_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="projectDir" Type="string">"/home/dgk64/simulation/FA24SP25Analog/non-overlap-clk/maestro/results/maestro/.tmpADEDir_dgk64/FA24SP25Analog_non-overlap-clk_1/simulation"</field>
-			<field Name="designInfo" Type="list">("FA24SP25Analog" "non-overlap-clk" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/home/dgk64/simulation/FA24SP25Analog/break_before_make/maestro/results/maestro/.tmpADEDir_dgk64/FA24SP25Analog_non-overlap-clk_1/simulation"</field>
+			<field Name="designInfo" Type="list">("FA24SP25Analog" "break_before_make" "schematic" "spectre")</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="analyses" Type="skillTable">asiEnvSaveTable
