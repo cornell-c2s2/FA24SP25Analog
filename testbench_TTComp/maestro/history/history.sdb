@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Nov 11 02:56:44 2024</timestamp>
+			<uuid>{136fbdb9-8562-43bf-96d0-7ba53668dc22}</uuid>
+			<locked>0</locked>
+			<mode>Monte Carlo Sampling</mode>
+			<resultsname>/home/cx237/SKY130_PDK/FA24SP25Analog/testbench_TTComp/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/cx237/SKY130_PDK/FA24SP25Analog/testbench_TTComp/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/cx237/simulation/FA24SP25Analog/testbench_TTComp/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/FA24SP25Analog/testbench_TTComp/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

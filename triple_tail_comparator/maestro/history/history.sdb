@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 2 17:23:33 2024</timestamp>
-			<uuid>{17eb1f7d-7973-41b7-a9a3-14b76d3c878f}</uuid>
+			<timestamp>Nov 10 14:36:15 2024</timestamp>
+			<uuid>{50dbb374-9ba3-4956-885a-3fc461f6e482}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/cx237/SKY130_PDK/FA24SP25Analog/triple_tail_comparator/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

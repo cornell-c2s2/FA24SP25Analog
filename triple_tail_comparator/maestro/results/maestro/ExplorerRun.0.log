@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat Nov  2 17:23:34 2024 
+Current time: Sun Nov 10 14:36:16 2024 
 Best design point: 1
 Design specs: 
 	FA24SP25Analog_triple_tail_comparator_1	corner	Nominal - 
@@ -8,6 +8,6 @@ Design parameters:
 
 ExplorerRun.0
 Number of points completed: 3
-Number of simulation errors: 0
+Number of simulation errors: 4
 ExplorerRun.0 completed. 
-Current time: Sat Nov  2 17:27:04 2024 
+Current time: Sun Nov 10 14:36:20 2024 
