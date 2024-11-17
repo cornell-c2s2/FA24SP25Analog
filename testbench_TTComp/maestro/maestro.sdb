@@ -54,9 +54,35 @@
 				</tooloptions>
 				<vars>
 					<var>diffpairnf
-						<value>6</value>
+						<value>4</value>
+					</var>
+					<var>diffpairmult
+						<value>1</value>
+					</var>
+					<var>diffwid
+						<value>6.75u</value>
+					</var>
+					<var>difflen
+						<value>2.25u</value>
+					</var>
+					<var>length
+						<value>500n</value>
 					</var>
 				</vars>
+				<outputs>
+					<output>clip(VT("/outQ") 4e-09 5e-06 ?interpolate nil)
+						<evalType>point</evalType>
+					</output>
+					<output>intersect(clip(VT("/outQ") 4e-09 5e-06 ?interpolate nil) VT("/VINPC"))
+						<evalType>point</evalType>
+					</output>
+					<output>clip(VT("/outQ") 1e-08 5e-06 ?interpolate nil)
+						<evalType>point</evalType>
+					</output>
+					<output>intersect(clip(VT("/outQ") 1e-08 5e-06 ?interpolate nil) VT("/VINPC"))
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -68,7 +94,7 @@
 		</extensions>
 		<currentmode>Monte Carlo Sampling</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistprivilege="1" netlistscope="all">FA24SP25Analog_testbench_TTComp_1
+			<test netlist="0" netlistprivilege="0" netlistscope="all">FA24SP25Analog_testbench_TTComp_1
 				<cellviews>
 					<lcv netlist="1" vipcount="0">FA24SP25Analog/testbench_TTComp/schematic
 						<lib>FA24SP25Analog</lib>
@@ -111,7 +137,7 @@
 				<value></value>
 			</plottingoption>
 			<plottingoption>distributedplot_enabled
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
 				<value>Replace</value>
@@ -123,6 +149,30 @@
 			</exploreroption>
 			<exploreroption>autoplotmode
 				<value>Replace</value>
+			</exploreroption>
+			<exploreroption>histogramtype
+				<value>pass/fail</value>
+			</exploreroption>
+			<exploreroption>histogrambins
+				<value>20</value>
+			</exploreroption>
+			<exploreroption>showhistogramdensity
+				<value>yes</value>
+			</exploreroption>
+			<exploreroption>showhistogramdeviation
+				<value>yes</value>
+			</exploreroption>
+			<exploreroption>showhistogrampercentmarkers
+				<value>no</value>
+			</exploreroption>
+			<exploreroption>showhistogrampoints
+				<value>yes</value>
+			</exploreroption>
+			<exploreroption>histogramqqplot
+				<value>no</value>
+			</exploreroption>
+			<exploreroption>additionalcalcs
+				<value>yes</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -140,7 +190,7 @@
 						<test>FA24SP25Analog_testbench_TTComp_1</test>
 						<type>Schematic</type>
 						<LCV>Schematic</LCV>
-						<Instances>/I5/NM2, /I5/NM3</Instances>
+						<Instances>/I5/NM2, /I5/NM3, /I5/NM5, /I5/NM6, /I5/PM3, /I5/PM4, /I5/PM5, /I5/PM8</Instances>
 					</dutinstance>
 				</runoption>
 				<runoption>ignoreflag
@@ -189,7 +239,7 @@
 					<value>200</value>
 				</runoption>
 				<runoption>mcnumpoints
-					<value>100</value>
+					<value>200</value>
 				</runoption>
 				<runoption>yeyistostart
 					<value>3.0</value>
@@ -219,7 +269,7 @@
 					<value>12345</value>
 				</runoption>
 				<runoption>mcmethod
-					<value>global</value>
+					<value>all</value>
 				</runoption>
 				<runoption>saveallplots
 					<value>1</value>
@@ -266,9 +316,165 @@
 						</cdatacontent>
 					</yamlconfig>
 				</runoption>
+				<runoption>mcStopMethod
+					<value>Model Accuracy</value>
+				</runoption>
 			</mode>
 		</runoptions>
-		<allcornersenabled>1</allcornersenabled>
+		<allcornersenabled>0</allcornersenabled>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
+		<vars>
+			<var>diffpairnf
+				<value>4</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>diffpairmult
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>diffwid
+				<value>4.5u</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>difflen
+				<value>1.5u</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>pfetlen
+				<value>150n 1u</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>fetlen
+				<value>150n</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>length
+				<value>150n</value>
+				<dependentTests>
+					<dependentTest omitted="0">FA24SP25Analog_testbench_TTComp_1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<allparametersdisabled>0</allparametersdisabled>
+		<parameters>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/NM6
+				<parameter enabled="1">fw
+					<value>2.66667 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/NM5
+				<parameter enabled="1">fw
+					<value>2.66667 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>length</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/PM4
+				<parameter enabled="1">fw
+					<value>4.44444 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/PM3
+				<parameter enabled="1">fw
+					<value>4.44444 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/PM5
+				<parameter enabled="1">fw
+					<value>4.44444 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/PM6
+				<parameter enabled="1">fw
+					<value>2 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/PM7
+				<parameter enabled="1">fw
+					<value>2 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/PM8
+				<parameter enabled="1">fw
+					<value>4.44444 * NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/NM8
+				<parameter enabled="1">fw
+					<value>NM7/fw@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+			<location>FA24SP25Analog/triple_tail_comparator/schematic/NM7
+				<parameter enabled="1">fw
+					<value>length*3</value>
+					<promptname>Finger Width</promptname>
+				</parameter>
+				<parameter enabled="1">l
+					<value>NM5/l@FA24SP25Analog/triple_tail_comparator/schematic</value>
+					<promptname>Length</promptname>
+				</parameter>
+			</location>
+		</parameters>
+		<parametersets></parametersets>
 	</active>
 	<history>History
 	</history>
