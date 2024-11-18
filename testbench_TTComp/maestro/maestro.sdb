@@ -92,7 +92,7 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
-		<currentmode>Monte Carlo Sampling</currentmode>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistprivilege="0" netlistscope="all">FA24SP25Analog_testbench_TTComp_1
 				<cellviews>
@@ -371,7 +371,7 @@
 				</dependentTests>
 			</var>
 		</vars>
-		<allparametersdisabled>0</allparametersdisabled>
+		<allparametersdisabled>1</allparametersdisabled>
 		<parameters>
 			<location>FA24SP25Analog/triple_tail_comparator/schematic/NM6
 				<parameter enabled="1">fw
@@ -389,7 +389,7 @@
 					<promptname>Finger Width</promptname>
 				</parameter>
 				<parameter enabled="1">l
-					<value>length</value>
+					<value>500n</value>
 					<promptname>Length</promptname>
 				</parameter>
 			</location>
@@ -465,7 +465,7 @@
 			</location>
 			<location>FA24SP25Analog/triple_tail_comparator/schematic/NM7
 				<parameter enabled="1">fw
-					<value>length*3</value>
+					<value>1.5u</value>
 					<promptname>Finger Width</promptname>
 				</parameter>
 				<parameter enabled="1">l

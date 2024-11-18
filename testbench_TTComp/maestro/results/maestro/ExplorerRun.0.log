@@ -1,24 +1,18 @@
-Starting Monte Carlo Sampling...
+Starting Single Run, Sweeps and Corners...
 
-Current time: Fri Nov 15 19:18:00 2024 
-
-Variation: All
-Sampling Method: Low-Discrepancy Sequence
-Seed: 12345
+Current time: Sun Nov 17 17:14:19 2024 
+Best design point: 1
+Design specs: 
+	FA24SP25Analog_testbench_TTComp_1	corner	Nominal - 
+Design parameters: 
+	diffpairnf		4
+	diffpairmult		1
+	diffwid		6.75u
+	difflen		2.25u
+	length		500n
 
 ExplorerRun.0
-Number of points completed: 200
+Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Fri Nov 15 19:22:02 2024 
-Monte Carlo Sampling yield summary:
-Number of spec values are in this yield data: 1
-FA24SP25Analog_testbench_TTComp_1	Nominal - 
-	intersect(clip(VT("/outQ") 1e-08 5e-06 ?interpolate nil) VT("/VINPC")):	Yield	100%
-		Min 0.89354	Max 0.908539	Mean 0.900265	Number of errors 0
-
-FA24SP25Analog_testbench_TTComp_1
-	Overall Yield	100%	Number of points passed	200	Total number of points	200
-
-Estimated yield = 100% (200/200), 0 errors
-Estimated yield (No opregions) = 100% (200/200)
+Current time: Sun Nov 17 17:14:28 2024 
