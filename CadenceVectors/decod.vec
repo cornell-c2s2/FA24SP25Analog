@@ -1,0 +1,42 @@
+; Note: lines start with this symbol represents comment
+; Last revision: Sept. 8, 2024
+; Author: Yihan Zhang, edited by Arthur Yang
+
+; Enable waveform output, so that you can still see waveforms in your simulation
+output_wf 1
+
+; RADIX specifies the number of bits of each vector
+radix 2 3
+
+; VNAME assigns name to your vector.
+vname IN<[1:0]> OUT<[2:0]>
+
+; IO specifies the direction (input/output) of a vector
+io i o
+
+; TUNIT means any number representing time will have the following unit
+tunit 10ps
+
+; CHK_WINDOW specifies the window that the simulator will check for your output
+chk_window -19 20 1 period=20
+
+; PERIOD specifies the period of your signal
+period 20
+
+; TRISE and TFALL specifies the rising time and falling time
+trise 2
+tfall 2
+
+; VIH and VIL specifies input high voltage and low voltage respectively
+vih 1.8
+vil 0.0
+
+; VOH and VOL specifies output high voltage and low voltage respectively
+voh 0.9
+vol 0.1
+
+; Tabular vector data
+0 0
+0 1
+1 0 
+1 1

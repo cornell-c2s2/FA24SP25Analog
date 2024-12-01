@@ -1,77 +1,40 @@
 <?xml version="1.0"?>
 <setupdb version="7">maestro
 	<active>Active Setup
-		<jobcontrolmode>LSCS</jobcontrolmode>
+		<jobcontrolmode>ICRP</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
-			<corner enabled="1">FF
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"ff"</modelsection>
-					</model>
-				</models>
-			</corner>
-			<corner enabled="1">FS
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"fs"</modelsection>
-					</model>
-				</models>
-			</corner>
-			<corner enabled="1">SS
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"ss"</modelsection>
-					</model>
-				</models>
-			</corner>
-			<corner enabled="1">SF
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"sf"</modelsection>
-					</model>
-				</models>
-			</corner>
 		</corners>
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">FA24SP25Analog_non-overlap-clk_1
+			<test>FA24SP25Analog_safety_module_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>break_before_make</value>
+						<value>safety_module</value>
 					</option>
 					<option>lib
 						<value>FA24SP25Analog</value>
 					</option>
-					<option>path
-						<value>$AXL_SETUPDB_DIR</value>
-					</option>
 					<option>sim
-						<value>spectre</value>
+						<value>ams</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>config</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
 					</option>
 					<option>state
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<vars></vars>
-				<origoptions></origoptions>
+				<outputs>
+					<output>"/IN&lt;2:0&gt;"
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -83,7 +46,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">FA24SP25Analog_non-overlap-clk_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_safety_module_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -123,8 +86,6 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-		<jobpolicyname>Maestro Default</jobpolicyname>
-		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>

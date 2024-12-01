@@ -1,0 +1,14 @@
+output_wf 1
+radix 2
+vname IN[1:0]
+io i
+tunit 1ns
+trise 0.1
+tfall 0.1
+vih 1.8
+vil 0.0
+
+00 0
+10 1
+20 2
+30 3

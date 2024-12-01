@@ -1,0 +1,13 @@
+output_wf 1
+radix 1
+vname VIN
+io i
+tunit 1ns
+trise 0.1
+vih 1.8
+vil 0.0
+
+00 0
+10 1
+20 0
+30 1

@@ -1,0 +1,6 @@
+//Verilog HDL for "FA24SP25Analog", "DigitalLogic_SAR" "functional"
+
+
+module DigitalLogic_SAR ( );
+
+endmodule
