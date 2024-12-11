@@ -1,0 +1,13 @@
+Starting Monte Carlo Sampling...
+
+Current time: Thu Dec  5 18:52:52 2024 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+ExplorerRun.0
+Number of points completed: 250
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Thu Dec  5 19:09:33 2024 
