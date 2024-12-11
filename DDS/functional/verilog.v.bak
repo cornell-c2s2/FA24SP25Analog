@@ -2,7 +2,7 @@
 module DDS (
     input wire clk,                        // 50 MHz clock input
     input wire reset,                      // Synchronous reset
-    input wire [11:0] freq_ctrl,           // 12-bit frequency control input
+    input wire [9:0] freq_ctrl,            // 10-bit frequency control input
     output reg [5:0] ramp_out,             // 6-bit ramp wave output
     output reg square_out                  // 1-bit square wave output
 );
@@ -15,7 +15,7 @@ module DDS (
         if (reset) 
             phase_acc <= 18'd0;            // Reset phase accumulator
         else 
-            phase_acc <= phase_acc + {6'd0, freq_ctrl}; // Accumulate frequency control
+            phase_acc <= phase_acc + {6'd0, 2'b11, freq_ctrl}; // Accumulate frequency control
     end
 
     // Ramp wave and square wave generation

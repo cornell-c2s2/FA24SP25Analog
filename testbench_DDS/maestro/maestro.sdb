@@ -30,6 +30,11 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<outputs>
+					<output>/ctrl&lt;9:0&gt;
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
