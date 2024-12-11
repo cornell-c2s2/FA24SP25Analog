@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sun Dec  8 14:31:18 2024 
+Current time: Wed Dec 11 01:31:34 2024 
 Best design point: 1
 Design specs: 
 	FA24SP25Analog_testbench_FSM_sub_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Sun Dec  8 14:31:40 2024 
+Current time: Wed Dec 11 01:32:11 2024 
