@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--StateFileType saveLoadState-->
+<topLevel>
+    <SimpleProp Name="stateFileVersion" Value="@(#)$CDS: virtuoso version IC23.1-64b 05/22/2024 07:43 (cpgbld16) $" Type="string" />
+    <SimpleProp Name="currentHistory" Value="$AXL_PROJECT_DIR/FA24SP25Analog/testbench_FSM_sub/maestro/results/maestro/ExplorerRun.0" Type="stringValue" />
+    <SimpleProp Name="currentContext" Value="__historyDirStr__/1/FA24SP25Analog_testbench_FSM_sub_1/psf" Type="stringValue" />
+    <IndexedProp Name="resultsDirMappingList">
+        <SimpleProp Name="__resDirStr_0" Value="$AXL_PROJECT_DIR/FA24SP25Analog/testbench_FSM_sub/maestro/results/maestro/ExplorerRun.0/1/FA24SP25Analog_testbench_FSM_sub_1/psf" Type="stringValue" />
+    </IndexedProp>
+    <IndexedProp Name="_HISTORY_LIST_">
+        <SimpleProp Name="historyName" Value="ExplorerRun.0" Type="string" />
+        <IndexedProp Name="_TEST_LIST_">
+            <SimpleProp Name="testName" Value="FA24SP25Analog_testbench_FSM_sub_1" Type="string" />
+        </IndexedProp>
+    </IndexedProp>
+    <SimpleProp Name="_PLACEHOLDER_HISTORY_" Value="ExplorerRun.0" Type="string" />
+    <IndexedProp Name="graphFileList">
+        <SimpleProp Value="FSM_sub_plot_0.cmpt" Type="stringValue" />
+    </IndexedProp>
+</topLevel>

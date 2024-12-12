@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>FA24SP25Analog_testbench_FSM_sub_1
+			<test>FA24SP25Analog_testbench_FSM_big_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>testbench_FSM_sub</value>
+						<value>testbench_FSM_big</value>
 					</option>
 					<option>lib
 						<value>FA24SP25Analog</value>
@@ -30,6 +30,7 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<outputs></outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -42,6 +43,7 @@
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistscope="all">FA24SP25Analog_testbench_FSM_sub_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_testbench_FSM_big_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
