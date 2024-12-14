@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Dec 13 20:35:35 2024</timestamp>
-			<uuid>{8cebf6aa-5ecb-450d-ba8a-93dcd3f2ca51}</uuid>
+			<timestamp>Dec 13 21:02:27 2024</timestamp>
+			<uuid>{612439c3-727b-44a4-b2be-7b088ada3f16}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/dgk64/SKY130_PDK/FA24SP25Analog/SAR_Top/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
