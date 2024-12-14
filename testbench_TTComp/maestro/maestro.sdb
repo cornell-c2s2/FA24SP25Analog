@@ -95,7 +95,7 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
-		<currentmode>Monte Carlo Sampling</currentmode>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistprivilege="0" netlistscope="all">FA24SP25Analog_testbench_TTComp_1
 				<cellviews>

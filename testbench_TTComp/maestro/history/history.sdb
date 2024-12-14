@@ -3,10 +3,10 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Dec 13 22:31:18 2024</timestamp>
-			<uuid>{0c9079ec-50d0-458a-921f-8aefaf822e30}</uuid>
+			<timestamp>Dec 14 01:17:59 2024</timestamp>
+			<uuid>{ceca3e1f-cdc7-40e9-b600-d357f17940e3}</uuid>
 			<locked>0</locked>
-			<mode>Monte Carlo Sampling</mode>
+			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/cx237/SKY130_PDK/FA24SP25Analog/testbench_TTComp/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
 			<runlog>/home/cx237/SKY130_PDK/FA24SP25Analog/testbench_TTComp/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>

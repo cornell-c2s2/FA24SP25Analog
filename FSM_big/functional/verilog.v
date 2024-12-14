@@ -42,11 +42,11 @@ module FSM_big (
     end
 
     //FIX:  Grab last output for LSB (this needs to be combinational, make this SR latch?)
+// CURSED verilog
      always @(*) begin
-        if (SAR_RESET) begin
             LSBOUT <= VCOMP;     // When SARRST is high, capture the value of VCOMP
-        end
     end
+
 
 
 endmodule

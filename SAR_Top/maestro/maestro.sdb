@@ -31,6 +31,7 @@
 					</option>
 				</tooloptions>
 				<outputs></outputs>
+				<vars></vars>
 			</test>
 		</tests>
 		<extensions>
@@ -82,6 +83,8 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>
