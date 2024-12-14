@@ -24,10 +24,10 @@ module FSM_big (
     always @(*) begin
         case (current_state)
             `SAMPLE: begin next_state = `BIT3;   OUTEN = 3'b000; SAR_RESET = 1'b1; end
-            `BIT3:   begin next_state = `BIT2;   OUTEN = 3'b000; SAR_RESET = 1'b0; end
-            `BIT2:   begin next_state = `BIT1;   OUTEN = 3'b100; SAR_RESET = 1'b0; end
-            `BIT1:   begin next_state = `BIT0;   OUTEN = 3'b010; SAR_RESET = 1'b0; end
-            `BIT0:   begin next_state = `SAMPLE; OUTEN = 3'b001; SAR_RESET = 1'b0; end
+            `BIT3:   begin next_state = `BIT2;   OUTEN = 3'b100; SAR_RESET = 1'b0; end
+            `BIT2:   begin next_state = `BIT1;   OUTEN = 3'b010; SAR_RESET = 1'b0; end
+            `BIT1:   begin next_state = `BIT0;   OUTEN = 3'b001; SAR_RESET = 1'b0; end
+            `BIT0:   begin next_state = `SAMPLE; OUTEN = 3'b000; SAR_RESET = 1'b0; end
             default :  next_state = `SAMPLE;
         endcase
     end

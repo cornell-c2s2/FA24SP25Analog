@@ -54,7 +54,7 @@
 				</tooloptions>
 				<vars>
 					<var>diffpairnf
-						<value>4</value>
+						<value>1</value>
 					</var>
 					<var>diffpairmult
 						<value>1</value>
@@ -82,6 +82,9 @@
 					<output>intersect(clip(VT("/outQ") 1e-08 5e-06 ?interpolate nil) VT("/VINPC"))
 						<evalType>point</evalType>
 					</output>
+					<output>intersect(clip(VT("/outQ") 1e-07 5e-06 ?interpolate nil) VT("/VINPC"))
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -92,7 +95,7 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<currentmode>Monte Carlo Sampling</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistprivilege="0" netlistscope="all">FA24SP25Analog_testbench_TTComp_1
 				<cellviews>

@@ -61,7 +61,7 @@ module FSM_sub (
 
     // Output logic (Mealy: depends on state and inputs)
     always @(*) begin
-        case (next_state)
+        case (current_state)
             `RESET: VOUT = 3'b100; // Set VOUT to "100" in RESET
             `COMP_HIGH: begin VOUT = 3'b001; BITOUT=1'b1; end // Set VOUT to "10"
             `COMP_LOW:  begin VOUT = 3'b010; BITOUT=1'b0; end // Set VOUT to "01"

@@ -1,9 +1,9 @@
 //Verilog HDL for "FA24SP25Analog", "FSM_big" "functional"
 
 // Define state encodings using `parameter`
-`define SAMPLE    3'b000  // Set VOUT to "10"
-`define BIT3      3'b001  // Set VOUT to "01"
-`define BIT2      3'b010  // Set VOUT to "11"
+`define SAMPLE    3'b000
+`define BIT3      3'b001
+`define BIT2      3'b010
 `define BIT1      3'b011
 `define BIT0      3'b100
 
