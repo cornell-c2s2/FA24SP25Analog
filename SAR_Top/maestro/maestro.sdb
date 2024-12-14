@@ -8,28 +8,29 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>c2s2Lib_RS-Latch_1
+			<test>FA24SP25Analog_SAR_Top_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>RS-Latch</value>
+						<value>SAR_Top</value>
 					</option>
 					<option>lib
-						<value>c2s2Lib</value>
+						<value>FA24SP25Analog</value>
+					</option>
+					<option>sim
+						<value>ams</value>
+					</option>
+					<option>view
+						<value>config</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
-					</option>
-					<option>sim
-						<value>spectre</value>
-					</option>
-					<option>view
-						<value>schematic</value>
 					</option>
 					<option>state
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<outputs></outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -41,7 +42,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">c2s2Lib_RS-Latch_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_SAR_Top_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -80,6 +81,8 @@
 			<reusesaverunhist>0</reusesaverunhist>
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
-	<history>History</history>
+	<history>History
+	</history>
 </setupdb>

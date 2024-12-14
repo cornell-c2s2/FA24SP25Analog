@@ -9,7 +9,8 @@ module FSM_sub (
     input wire VRESET,      // Reset signal
     input wire VENABLE,     // Enable signal
     input wire CLK,         // Clock signal
-    output reg [1:0] VOUT   // 2-bit output signal
+    output reg [2:0] VOUT,  // 3-bit output signal
+	output reg BITOUT	  // Stores the output for that bit
 );
 
     // State registers
@@ -46,7 +47,7 @@ module FSM_sub (
                 else
                     next_state = `COMP_LOW;
             end
-            default: next_state = `RESET; // Default state
+            default: next_state = current_state; // Default state
         endcase
     end
 
@@ -61,10 +62,10 @@ module FSM_sub (
     // Output logic (Mealy: depends on state and inputs)
     always @(*) begin
         case (next_state)
-            `RESET: VOUT = 2'b11; // Set VOUT to "11" in RESET
-            `COMP_HIGH: VOUT = 2'b10; // Set VOUT to "10"
-            `COMP_LOW: VOUT = 2'b01;  // Set VOUT to "01"
-            default: VOUT = 2'b00;    // Default to "11"
+            `RESET: VOUT = 3'b100; // Set VOUT to "100" in RESET
+            `COMP_HIGH: begin VOUT = 3'b001 & VENABLE; BITOUT=1'b1; end // Set VOUT to "10"
+            `COMP_LOW:  begin VOUT = 3'b010 & VENABLE; BITOUT=1'b0; end // Set VOUT to "01"
+            default:    begin VOUT = 3'b000; BITOUT=1'b0; end // Default to "11"
         endcase
     end
 
