@@ -30,7 +30,14 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<outputs></outputs>
+				<outputs>
+					<output>"/VOUT&lt;5:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>/VOUT&lt;5:0&gt;
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 				<vars></vars>
 			</test>
 		</tests>

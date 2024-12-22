@@ -28,7 +28,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINP</stimuliname>
-        <timeStamp>14/12/2024;2:12:43:AM</timeStamp>
+        <timeStamp>22/12/2024;1:6:9:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -61,7 +61,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>5u</value>
+                <value>50u</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -89,7 +89,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINN</stimuliname>
-        <timeStamp>14/12/2024;2:12:33:AM</timeStamp>
+        <timeStamp>22/12/2024;1:6:14:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -122,7 +122,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>5u</value>
+                <value>50u</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -333,7 +333,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VCM</stimuliname>
-        <timeStamp>13/12/2024;6:3:13:PM</timeStamp>
+        <timeStamp>22/12/2024;1:6:25:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
