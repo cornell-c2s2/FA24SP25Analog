@@ -28,7 +28,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINP</stimuliname>
-        <timeStamp>22/12/2024;1:6:9:AM</timeStamp>
+        <timeStamp>23/12/2024;1:12:57:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -89,7 +89,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINN</stimuliname>
-        <timeStamp>22/12/2024;1:6:14:AM</timeStamp>
+        <timeStamp>23/12/2024;1:13:1:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>

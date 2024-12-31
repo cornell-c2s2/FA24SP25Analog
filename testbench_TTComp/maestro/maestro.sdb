@@ -26,6 +26,46 @@
 					</model>
 				</models>
 			</corner>
+			<corner enabled="0">Stat_seq_6
+				<vars>
+					<var>monteCarlo::param::donominal
+						<value>0</value>
+					</var>
+					<var>monteCarlo::param::ignoreFlag
+						<value>0</value>
+					</var>
+					<var>monteCarlo::param::ignoreMode
+						<value>"default"</value>
+					</var>
+					<var>monteCarlo::param::instances
+						<value>"FA24SP25Analog_testbench_TTComp_1%/I5/NM2, /I5/NM3, /I5/NM5, /I5/NM6, /I5/PM3, /I5/PM4, /I5/PM5, /I5/PM8%Schematic%Schematic#"</value>
+					</var>
+					<var>monteCarlo::param::samplingMode
+						<value>"lds"</value>
+					</var>
+					<var>monteCarlo::param::saveAllPlots
+						<value>1</value>
+					</var>
+					<var>monteCarlo::param::saveMismatch
+						<value>0</value>
+					</var>
+					<var>monteCarlo::param::saveProcess
+						<value>0</value>
+					</var>
+					<var>monteCarlo::param::seed
+						<value>"12345"</value>
+					</var>
+					<var>monteCarlo::param::sequence
+						<value>6</value>
+					</var>
+					<var>monteCarlo::param::totalPoints
+						<value>200</value>
+					</var>
+					<var>monteCarlo::param::type
+						<value>"all"</value>
+					</var>
+				</vars>
+			</corner>
 		</corners>
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
@@ -324,7 +364,7 @@
 				</runoption>
 			</mode>
 		</runoptions>
-		<allcornersenabled>0</allcornersenabled>
+		<allcornersenabled>1</allcornersenabled>
 		<jobpolicyname>Maestro Default</jobpolicyname>
 		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 		<incrementalsimulationoptions>

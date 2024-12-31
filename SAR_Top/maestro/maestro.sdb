@@ -4,11 +4,51 @@
 		<jobcontrolmode>LSCS</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
+			<corner enabled="1">FF
+				<models>
+					<model enabled="1">sky130.lib.spice
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/models/sky130.lib.spice</modelfile>
+						<modelsection>"ff"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SS
+				<models>
+					<model enabled="1">sky130.lib.spice
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/models/sky130.lib.spice</modelfile>
+						<modelsection>"ss"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">FS
+				<models>
+					<model enabled="1">sky130.lib.spice
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/models/sky130.lib.spice</modelfile>
+						<modelsection>"fs"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SF
+				<models>
+					<model enabled="1">sky130.lib.spice
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/models/sky130.lib.spice</modelfile>
+						<modelsection>"sf"</modelsection>
+					</model>
+				</models>
+			</corner>
 		</corners>
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>FA24SP25Analog_SAR_Top_1
+			<test enabled="1">FA24SP25Analog_SAR_Top_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -92,6 +132,136 @@
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 		<jobpolicyname>Maestro Default</jobpolicyname>
 		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+		<allcornersenabled>0</allcornersenabled>
+		<runoptions>
+			<mode>Monte Carlo Sampling
+				<runoption>dutsummary
+					<dutinstance>row0
+						<test>FA24SP25Analog_SAR_Top_1</test>
+						<type>Schematic</type>
+						<LCV>Schematic</LCV>
+						<Instances>/C0, /C1, /C10, /C11, /C13, /C14, /C15, /C16, /C2, /C3, /C8, /C9, /I28/NM0, /I28/NM1, /I28/NM2, /I28/NM3, /I28/NM5, /I28/NM6, /I28/PM0, /I28/PM1, /I28/PM5, /I28/PM8</Instances>
+					</dutinstance>
+				</runoption>
+				<runoption>ignoreflag
+					<value>0</value>
+				</runoption>
+				<runoption>ignoremode
+					<value>default</value>
+				</runoption>
+				<runoption>mismatchvary
+					<value>Gaussian</value>
+				</runoption>
+				<runoption>mcYieldAlphaLimit
+					<value>0.05</value>
+				</runoption>
+				<runoption>dumpParamMode
+					<value>no</value>
+				</runoption>
+				<runoption>mcstartingrunnumber
+					<value>1</value>
+				</runoption>
+				<runoption>mcFilterPluginPath
+					<value></value>
+				</runoption>
+				<runoption>sssnumpoints
+					<value>7000</value>
+				</runoption>
+				<runoption>mismatchscale
+					<value>1.0</value>
+				</runoption>
+				<runoption>processscale
+					<value>1.0</value>
+				</runoption>
+				<runoption>pointsPerJobPolicy
+					<value>Group automatically</value>
+				</runoption>
+				<runoption>samplingmode
+					<value>lds</value>
+				</runoption>
+				<runoption>maxPointsPerJob
+					<value>10</value>
+				</runoption>
+				<runoption>reliabilitymode
+					<value>singlestress</value>
+				</runoption>
+				<runoption>wcdinitialpoints
+					<value>200</value>
+				</runoption>
+				<runoption>mcnumpoints
+					<value>50</value>
+				</runoption>
+				<runoption>yeyistostart
+					<value>3.0</value>
+				</runoption>
+				<runoption>mcSigmaTarget
+					<value>3</value>
+				</runoption>
+				<runoption>yeiterations
+					<value>10</value>
+				</runoption>
+				<runoption>mcYieldTarget
+					<value>99.865</value>
+				</runoption>
+				<runoption>processvary
+					<value>Gaussian</value>
+				</runoption>
+				<runoption>mcnumbins
+					<value></value>
+				</runoption>
+				<runoption>mcFilterPluginReuseHistory
+					<value></value>
+				</runoption>
+				<runoption>yeexpectedyield
+					<value>3</value>
+				</runoption>
+				<runoption>montecarloseed
+					<value>12345</value>
+				</runoption>
+				<runoption>mcmethod
+					<value>all</value>
+				</runoption>
+				<runoption>saveallplots
+					<value>1</value>
+				</runoption>
+				<runoption>yeusehistorymc
+					<value>0</value>
+				</runoption>
+				<runoption>saveprocess
+					<value>0</value>
+				</runoption>
+				<runoption>yeuseautomcsamples
+					<value>1</value>
+				</runoption>
+				<runoption>mcStopEarly
+					<value>0</value>
+				</runoption>
+				<runoption>yecreatecorners
+					<value>0</value>
+				</runoption>
+				<runoption>mcdistandscalingmismatchenable
+					<value>0</value>
+				</runoption>
+				<runoption>parasiticanalysis
+					<value>0</value>
+				</runoption>
+				<runoption>savemismatch
+					<value>0</value>
+				</runoption>
+				<runoption>mcFilterPluginEnabled
+					<value>0</value>
+				</runoption>
+				<runoption>haveyeyieldtostart
+					<value>1</value>
+				</runoption>
+				<runoption>yeusevarreduction
+					<value>1</value>
+				</runoption>
+				<runoption>mcdistandscalingprocessenable
+					<value>0</value>
+				</runoption>
+			</mode>
+		</runoptions>
 	</active>
 	<history>History
 	</history>
