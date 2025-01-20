@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 23.1 - CAT38 04/15/2024 12:23 (sjfdcl749) $
 \o Sub version:		sub-version  p323 
-\o Arguments:		-unmapped -mpssession virtuoso2588819 -mpshost ecelinux-02.ece.cornell.edu -masterPID 2588819 -ADVM 
+\o Arguments:		-unmapped -mpssession virtuoso310584 -mpshost ecelinux-02.ece.cornell.edu -masterPID 310584 -ADVM 
 \o Working Directory:	ecelinux-02.ece.cornell.edu:/home/cx237/SKY130_PDK/FA24SP25Analog
 \o 64-bit offsets
 \o Qt version: 		5.15.9
@@ -14,7 +14,19 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(1152 775 1398 791))
+\a nrResizeWindow(cdsLibManager list(60 93 1398 791))
+\a cdsLibManager->libListBox->value = "mwoLib"
+\a cdsLibManager->libLineEdit->value = "mwoLib"
+\a cdsLibManager->cellListBox->value = "hbtuner3"
+\a cdsLibManager->cellLineEdit->value = "hbtuner3"
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libLineEdit->value = "ahdlLib"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a cdsLibManager->libListBox->value = "rfExamples"
+\a cdsLibManager->libLineEdit->value = "rfExamples"
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
