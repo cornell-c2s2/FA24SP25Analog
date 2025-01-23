@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cx237
+HostName                       en-ec-c2s2-dev.coecis.cornell.edu
+ProcessIdentifier              262060
+ProcessCreationTime_UTC        1737511412
+ProcessCreationTime_Readable   Tue Jan 21 21:03:32 2025 EST
+AppIdentifier                  /opt/cadence/IC231.007/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/cx237/SKY130_PDK/FA24SP25Analog/testbench_TTComp/maestro/maestro.sdb
+TimeEditLocked                 Tue Jan 21 21:07:36 2025 EST

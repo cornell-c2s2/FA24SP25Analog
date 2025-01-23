@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Dec 13 17:08:59 2024</timestamp>
-			<uuid>{4afe66b6-eaeb-4ed7-b560-64ba23788c03}</uuid>
+			<timestamp>Jan 23 16:26:54 2025</timestamp>
+			<uuid>{cd594911-0abb-4c8d-b051-7a914eb60d4c}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/dgk64/SKY130_PDK/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/home/cx237/SKY130_PDK/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/home/dgk64/SKY130_PDK/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/home/cx237/SKY130_PDK/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/home/dgk64/simulation/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/home/cx237/simulation/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/FA24SP25Analog/break_before_make/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>

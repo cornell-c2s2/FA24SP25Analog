@@ -9,7 +9,7 @@
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
 						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
 						<modelsection>"ff"</modelsection>
 					</model>
 				</models>
@@ -19,7 +19,7 @@
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
 						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
 						<modelsection>"fs"</modelsection>
 					</model>
 				</models>
@@ -29,7 +29,7 @@
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
 						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
 						<modelsection>"ss"</modelsection>
 					</model>
 				</models>
@@ -39,7 +39,7 @@
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
 						<modelblock>Global</modelblock>
-						<modelfile>/home/dgk64/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
+						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
 						<modelsection>"sf"</modelsection>
 					</model>
 				</models>
