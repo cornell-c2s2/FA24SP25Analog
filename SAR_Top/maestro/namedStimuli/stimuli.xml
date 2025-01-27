@@ -28,7 +28,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINP</stimuliname>
-        <timeStamp>23/12/2024;1:12:57:AM</timeStamp>
+        <timeStamp>27/01/2025;2:20:8:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -61,7 +61,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>50u</value>
+                <value>10u</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -89,7 +89,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINN</stimuliname>
-        <timeStamp>23/12/2024;1:13:1:AM</timeStamp>
+        <timeStamp>27/01/2025;2:20:13:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -122,7 +122,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>50u</value>
+                <value>10u</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -258,7 +258,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>CLK</stimuliname>
-        <timeStamp>13/12/2024;6:2:44:PM</timeStamp>
+        <timeStamp>27/01/2025;2:20:38:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -298,7 +298,7 @@
                 <cdfname>per</cdfname>
                 <prompt>Period</prompt>
                 <datatype>string</datatype>
-                <value>40n</value>
+                <value>25n</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -326,7 +326,7 @@
                 <cdfname>pw</cdfname>
                 <prompt>Pulse width</prompt>
                 <datatype>string</datatype>
-                <value>19.9n</value>
+                <value>12.4n</value>
                 <defvalue></defvalue>
             </parameter>
         </parameterset>

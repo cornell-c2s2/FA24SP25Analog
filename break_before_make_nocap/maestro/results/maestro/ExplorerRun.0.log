@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 23 16:26:55 2025 
+Best design point: 1
+Design specs: 
+	FA24SP25Analog_non-overlap-clk_1	corner	FF - 
+	FA24SP25Analog_non-overlap-clk_1	corner	FS - 
+	FA24SP25Analog_non-overlap-clk_1	corner	SS - 
+	FA24SP25Analog_non-overlap-clk_1	corner	SF - 
+	FA24SP25Analog_non-overlap-clk_1	corner	Nominal - 
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Thu Jan 23 16:27:09 2025 
