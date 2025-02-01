@@ -176,7 +176,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>GLOBAL_RESET</stimuliname>
-        <timeStamp>13/12/2024;6:2:13:PM</timeStamp>
+        <timeStamp>01/02/2025;1:19:32:AM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -209,7 +209,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>40n</value>
+                <value>510n</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -223,7 +223,7 @@
                 <cdfname>t3</cdfname>
                 <prompt>Time 3</prompt>
                 <datatype>string</datatype>
-                <value>40.1n</value>
+                <value>511n</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
