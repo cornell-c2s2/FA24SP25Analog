@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dgk64
+HostName                       en-ec-c2s2-dev.coecis.cornell.edu
+ProcessIdentifier              433640
+ProcessCreationTime_UTC        1737821898
+ProcessCreationTime_Readable   Sat Jan 25 11:18:18 2025 EST
+AppIdentifier                  /opt/cadence/IC231.007/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/dgk64/SKY130_PDK/FA24SP25Analog/RS_Latch/maestro/maestro.sdb
+TimeEditLocked                 Sat Jan 25 11:19:23 2025 EST
