@@ -4,7 +4,7 @@
 		<jobcontrolmode>LSCS</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
-			<corner enabled="1">FF
+			<corner enabled="0">FF
 				<models>
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
@@ -14,7 +14,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">SS
+			<corner enabled="0">SS
 				<models>
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
@@ -24,7 +24,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">FS
+			<corner enabled="0">FS
 				<models>
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
@@ -34,7 +34,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">SF
+			<corner enabled="0">SF
 				<models>
 					<model enabled="1">sky130.lib.spice
 						<modeltest>All</modeltest>
@@ -74,7 +74,13 @@
 					<output>"/VOUT&lt;5:0&gt;"
 						<evalType>point</evalType>
 					</output>
-					<output>/VOUT&lt;5:0&gt;
+					<output>"/VOUT&lt;7:0&gt;"
+						<evalType>point</evalType>
+					</output>
+					<output>/OUT&lt;7:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/VOUT&lt;7:0&gt;
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -132,7 +138,7 @@
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 		<jobpolicyname>Maestro Default</jobpolicyname>
 		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
-		<allcornersenabled>0</allcornersenabled>
+		<allcornersenabled>1</allcornersenabled>
 		<runoptions>
 			<mode>Monte Carlo Sampling
 				<runoption>dutsummary
