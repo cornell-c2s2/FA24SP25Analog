@@ -59,13 +59,23 @@ module FSM_sub (
             current_state <= next_state; // Update state
     end
 
+    always @(posedge CLK) begin
+        case (current_state)
+            `RESET:     begin BITOUT <= BITOUT; end // Set VOUT to "100" in RESET, inferred latch, but we want it. FIX FOR GOOD CODING CONVENTION
+            `COMP_HIGH: begin BITOUT <= 1'b1; end // Set VOUT to "10"
+            `COMP_LOW:  begin BITOUT <= 1'b0; end // Set VOUT to "01"
+            default:    begin VOUT <= 1'b0; end // Default to "11"
+        endcase
+    end
+
+
     // Output logic (Mealy: depends on state and inputs)
     always @(*) begin
         case (current_state)
-            `RESET: VOUT = 3'b100; // Set VOUT to "100" in RESET
-            `COMP_HIGH: begin VOUT = 3'b001; BITOUT=1'b1; end // Set VOUT to "10"
-            `COMP_LOW:  begin VOUT = 3'b010; BITOUT=1'b0; end // Set VOUT to "01"
-            default:    begin VOUT = 3'b000; BITOUT=1'b0; end // Default to "11"
+            `RESET:     begin VOUT = 3'b100; end // Set VOUT to "100" in RESET, inferred latch, but we want it. FIX FOR GOOD CODING CONVENTION
+            `COMP_HIGH: begin VOUT = 3'b001; end // Set VOUT to "10"
+            `COMP_LOW:  begin VOUT = 3'b010; end // Set VOUT to "01"
+            default:    begin VOUT = 3'b000; end // Default to "11"
         endcase
     end
 

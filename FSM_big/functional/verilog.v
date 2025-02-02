@@ -21,7 +21,7 @@ module FSM_big (
 );
 
     // State registers
-    reg [2:0] current_state, next_state;
+    reg [3:0] current_state, next_state;
 
 
     // State update  and output to small FSM logic (Moore)

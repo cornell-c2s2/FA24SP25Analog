@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat Feb  1 12:37:18 2025 
+Current time: Sat Feb  1 22:12:31 2025 
 Best design point: 1
 Design specs: 
 	FA24SP25Analog_SAR_Top_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Sat Feb  1 12:38:14 2025 
+Current time: Sat Feb  1 22:15:02 2025 
