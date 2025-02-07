@@ -23,6 +23,14 @@ module FSM_big (
     // State registers
     reg [3:0] current_state, next_state;
 
+	//reset synchronizer
+	reg rst0;
+	reg rst;
+	always @(posedge CLK) begin
+		rst0 <= RESET;
+		rst <= rst0;
+	end
+
 
     // State update  and output to small FSM logic (Moore)
     always @(*) begin
@@ -42,8 +50,8 @@ module FSM_big (
 
 
     // State transtion register
-    always @(posedge CLK or posedge RESET) begin
-        if (RESET)
+    always @(posedge CLK) begin
+        if (rst)
             current_state <= `SAMPLE; // Go to RESET state
         else
             current_state <= next_state; // Update state
