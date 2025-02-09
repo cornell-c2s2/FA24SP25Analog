@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      cx237
+LoginName                      dgk64
 HostName                       c2s2-dev-rhel.ece.cornell.edu
-ProcessIdentifier              518479
-ProcessCreationTime_UTC        1738021006
-ProcessCreationTime_Readable   Mon Jan 27 18:36:46 2025 EST
+ProcessIdentifier              1047319
+ProcessCreationTime_UTC        1738516373
+ProcessCreationTime_Readable   Sun Feb  2 12:12:53 2025 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/cx237/SKY130_PDK/FA24SP25Analog/break_before_make/layout/layout.oa.cdslck
-TimeEditLocked                 Mon Jan 27 18:41:49 2025 EST
+FilePathUsedToEditLock         /home/dgk64/SKY130_PDK/FA24SP25Analog/comp_switch_tgate/symbol/symbol.oa.cdslck
+TimeEditLocked                 Sat Feb  8 11:58:27 2025 EST

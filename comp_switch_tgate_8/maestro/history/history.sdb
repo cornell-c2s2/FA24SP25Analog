@@ -3,16 +3,16 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 17 13:56:53 2024</timestamp>
-			<uuid>{567e981c-9388-44bc-b476-e2002b0e55ac}</uuid>
+			<timestamp>Feb 8 11:44:36 2025</timestamp>
+			<uuid>{d71eecdf-227e-409a-b07f-18743288c641}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname></resultsname>
-			<simresults></simresults>
-			<runlog></runlog>
-			<runlogfile></runlogfile>
-			<psfdir></psfdir>
-			<simdir></simdir>
+			<resultsname>/home/dgk64/SKY130_PDK/FA24SP25Analog/comp_switch_tgate_8/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/dgk64/SKY130_PDK/FA24SP25Analog/comp_switch_tgate_8/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/dgk64/simulation/FA24SP25Analog/comp_switch_tgate_8/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/FA24SP25Analog/comp_switch_tgate_8/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>
 </setupdb>

@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Dec 13 16:35:30 2024</timestamp>
-			<uuid>{f9af68f3-7f00-4b39-a9a5-d906fb4c2b66}</uuid>
+			<timestamp>Feb 8 12:06:04 2025</timestamp>
+			<uuid>{cd1f52ed-1af1-4532-875d-7bc408a8ee8b}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/dgk64/SKY130_PDK/FA24SP25Analog/testbench_comp_switch_tgate/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

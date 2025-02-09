@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>FA24SP25Analog_comp_switch_tgate_1
+			<test>FA24SP25Analog_comp_switch_tgate_8_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>comp_switch_tgate</value>
+						<value>comp_switch_tgate_8</value>
 					</option>
 					<option>lib
 						<value>FA24SP25Analog</value>
@@ -30,11 +30,6 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<vars>
-					<var>mult
-						<value>15</value>
-					</var>
-				</vars>
 			</test>
 		</tests>
 		<extensions>
@@ -46,14 +41,14 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">FA24SP25Analog_comp_switch_tgate_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_comp_switch_tgate_8_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>New SubWin</value>
+				<value>Replace</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -77,96 +72,6 @@
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
-			</exploreroption>
-			<exploreroption>plottype
-				<value>Auto</value>
-			</exploreroption>
-			<exploreroption>autoplotsignals
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>autoplotwaveexpr
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>autoplotscalarexpr
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>autoplotmode
-				<value>New SubWin</value>
-			</exploreroption>
-			<exploreroption>annotatedesignname
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>annotatesimdate
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>annotatetemperature
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>annotatedesignvars
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>annotatescalaroutputs
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>annotatespecmarkers
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>histogramtype
-				<value>pass/fail</value>
-			</exploreroption>
-			<exploreroption>histogrambins
-				<value>10</value>
-			</exploreroption>
-			<exploreroption>showhistogramdensity
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>showhistogramdeviation
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>showhistogrampercentmarkers
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>histogramqqplot
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>showhistogrampoints
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>additionalcalcs
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>exactmatchonly
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>createnewstrips
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>usecolorbank
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>quickplotenable
-				<value>yes</value>
-			</exploreroption>
-			<exploreroption>useExpressionDB
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>probingmode
-				<value>current</value>
-			</exploreroption>
-			<exploreroption>directplotmode
-				<value>Append</value>
-			</exploreroption>
-			<exploreroption>directplotafter
-				<value>All Selections Are Made</value>
-			</exploreroption>
-			<exploreroption>printafter
-				<value>Each Selection</value>
-			</exploreroption>
-			<exploreroption>distributedplot_enabled
-				<value>no</value>
-			</exploreroption>
-			<exploreroption>distributedplot_linger_time
-				<value>60</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
