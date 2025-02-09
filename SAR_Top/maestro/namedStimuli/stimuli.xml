@@ -28,7 +28,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINP</stimuliname>
-        <timeStamp>01/02/2025;2:0:22:PM</timeStamp>
+        <timeStamp>07/02/2025;8:55:53:PM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -61,7 +61,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>1u</value>
+                <value>5u</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>
@@ -89,7 +89,7 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VINN</stimuliname>
-        <timeStamp>01/02/2025;2:0:37:PM</timeStamp>
+        <timeStamp>07/02/2025;8:56:9:PM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -122,7 +122,7 @@
                 <cdfname>t2</cdfname>
                 <prompt>Time 2</prompt>
                 <datatype>string</datatype>
-                <value>1u</value>
+                <value>5u</value>
                 <defvalue></defvalue>
             </parameter>
             <parameter>

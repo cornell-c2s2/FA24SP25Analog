@@ -47,7 +47,7 @@ module FSM_sub (
                 else
                     next_state = `COMP_LOW;
             end
-            default: next_state = current_state; // Default state
+            default: next_state = `RESET; // Default state
         endcase
     end
 
@@ -64,7 +64,7 @@ module FSM_sub (
             `RESET:     begin BITOUT <= BITOUT; end // Set VOUT to "100" in RESET, inferred latch, but we want it. FIX FOR GOOD CODING CONVENTION
             `COMP_HIGH: begin BITOUT <= 1'b1; end // Set VOUT to "10"
             `COMP_LOW:  begin BITOUT <= 1'b0; end // Set VOUT to "01"
-            default:    begin VOUT <= 1'b0; end // Default to "11"
+            default:    begin BITOUT <= 1'b0; end // Default to "11"
         endcase
     end
 
@@ -75,7 +75,7 @@ module FSM_sub (
             `RESET:     begin VOUT = 3'b100; end // Set VOUT to "100" in RESET, inferred latch, but we want it. FIX FOR GOOD CODING CONVENTION
             `COMP_HIGH: begin VOUT = 3'b001; end // Set VOUT to "10"
             `COMP_LOW:  begin VOUT = 3'b010; end // Set VOUT to "01"
-            default:    begin VOUT = 3'b000; end // Default to "11"
+            default:    begin VOUT = 3'b100; end // Default to "11"
         endcase
     end
 
