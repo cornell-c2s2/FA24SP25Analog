@@ -4,51 +4,75 @@
 		<jobcontrolmode>LSCS</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
-			<corner enabled="1">FF
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"ff"</modelsection>
-					</model>
-				</models>
-			</corner>
-			<corner enabled="1">FS
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"fs"</modelsection>
-					</model>
-				</models>
-			</corner>
-			<corner enabled="1">SS
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"ss"</modelsection>
-					</model>
-				</models>
-			</corner>
-			<corner enabled="1">SF
-				<models>
-					<model enabled="1">sky130.lib.spice
-						<modeltest>All</modeltest>
-						<modelblock>Global</modelblock>
-						<modelfile>/home/cx237/SKY130_PDK/sky130_release/libs/sky130_fd_pr_main/../../models/sky130.lib.spice</modelfile>
-						<modelsection>"sf"</modelsection>
-					</model>
-				</models>
-			</corner>
 		</corners>
 		<sharedvarinfo></sharedvarinfo>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+				<active>
+					<mode>No Parasitics/LDE</mode>
+					<parameters>
+						<device>
+							<enabled>0</enabled>
+						</device>
+						<parasitic>
+							<enabled>0</enabled>
+						</parasitic>
+					</parameters>
+				</active>
+				<modes>
+					<mode>No Parasitics/LDE
+						<schematic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>schematic</view>
+						</schematic>
+					</mode>
+					<mode>Schematic Estimates (Parasitics)
+						<schematic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>estimated</view>
+						</parasitic>
+					</mode>
+					<mode>Layout (Parasitics/LDE)
+						<schematic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>netlist_layout</view>
+						</parasitic>
+					</mode>
+					<mode>Extracted (Parasitics/LDE)
+						<schematic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>sky130_scl_9T</lib>
+							<cell>INVX1</cell>
+							<view>&lt;None&gt;</view>
+						</parasitic>
+					</mode>
+				</modes>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">FA24SP25Analog_non-overlap-clk_1
+			<test enabled="1">FA24SP25Analog_break_before_make_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -57,8 +81,28 @@
 					<option>lib
 						<value>FA24SP25Analog</value>
 					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+			</test>
+			<test enabled="1">FA24SP25Analog_break_before_make_2
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>break_before_make</value>
+					</option>
+					<option>lib
+						<value>FA24SP25Analog</value>
 					</option>
 					<option>sim
 						<value>spectre</value>
@@ -66,49 +110,23 @@
 					<option>view
 						<value>schematic</value>
 					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
 					<option>state
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<vars></vars>
-				<origoptions></origoptions>
 			</test>
 		</tests>
-		<extensions>
-			<extension>Parasitics
-				<callback>_parSetupDBExtensionCB</callback>
-				<iconvalue></iconvalue>
-				<icontype></icontype>
-			</extension>
-		</extensions>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<disabledtests></disabledtests>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">FA24SP25Analog_non-overlap-clk_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_break_before_make_1</test>
+			<test netlist="0" netlistscope="all">FA24SP25Analog_break_before_make_2</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
 				<value>(None)</value>
-			</plottingoption>
-			<plottingoption>plottingmode
-				<value>Replace</value>
-			</plottingoption>
-			<plottingoption>plottype
-				<value>None</value>
-			</plottingoption>
-			<plottingoption>usewaveformtemplate
-				<value>no</value>
-			</plottingoption>
-			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
-			</plottingoption>
-			<plottingoption>allplottingtemplates
-				<value></value>
-			</plottingoption>
-			<plottingoption>defaultplottingtemplate
-				<value></value>
-			</plottingoption>
-			<plottingoption>distributedplot_enabled
-				<value>no</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -116,16 +134,6 @@
 				<value>(None)</value>
 			</exploreroption>
 		</exploreroptions>
-		<incrementalsimsetup>
-			<useincremental>0</useincremental>
-			<reusenetlist>0</reusenetlist>
-			<reusesaverunhist>0</reusesaverunhist>
-			<copyreferenceresults>1</copyreferenceresults>
-		</incrementalsimsetup>
-		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-		<jobpolicyname>Maestro Default</jobpolicyname>
-		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
-	<history>History
-	</history>
+	<history>History</history>
 </setupdb>
