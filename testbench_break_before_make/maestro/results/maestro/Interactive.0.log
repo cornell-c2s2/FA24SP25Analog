@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Feb 18 14:22:27 2025 
+Best design point: 1
+Design specs: 
+	FA24SP25Analog_testbench_break_before_make_extracted	corner	Nominal - 
+	FA24SP25Analog_testbench_break_before_make	corner	Nominal - 
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Tue Feb 18 14:22:56 2025 

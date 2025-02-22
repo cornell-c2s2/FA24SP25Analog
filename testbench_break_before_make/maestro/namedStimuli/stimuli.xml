@@ -2,7 +2,9 @@
 <stimuliset>
     <namedstimuli>
         <stimuliname>VDD</stimuliname>
-        <timeStamp>18/02/2025;2:13:58:AM</timeStamp>
+        <timeStamp>18/02/2025;2:27:56:AM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
         <srctype>dc</srctype>
         <sourcetype>V</sourcetype>
@@ -26,7 +28,9 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>VSS</stimuliname>
-        <timeStamp>18/02/2025;2:14:4:AM</timeStamp>
+        <timeStamp>18/02/2025;2:31:45:AM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
         <srctype>dc</srctype>
         <sourcetype>V</sourcetype>
@@ -50,7 +54,9 @@
     </namedstimuli>
     <namedstimuli>
         <stimuliname>CLK</stimuliname>
-        <timeStamp>18/02/2025;2:14:42:AM</timeStamp>
+        <timeStamp>18/02/2025;2:31:33:AM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
         <srctype>pulse</srctype>
         <sourcetype>V</sourcetype>
@@ -96,6 +102,13 @@
                 <prompt>Fall time</prompt>
                 <datatype>string</datatype>
                 <value>100p</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>pw</cdfname>
+                <prompt>Pulse width</prompt>
+                <datatype>string</datatype>
+                <value>10n</value>
                 <defvalue></defvalue>
             </parameter>
         </parameterset>
