@@ -104,7 +104,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -125,7 +125,7 @@
 				<value>yes</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -133,7 +133,7 @@
 				<value>(None)</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</exploreroption>
 			<exploreroption>plottype
 				<value>Auto</value>

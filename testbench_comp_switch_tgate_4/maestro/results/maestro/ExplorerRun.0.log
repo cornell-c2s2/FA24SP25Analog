@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat Feb 22 21:25:37 2025 
+Current time: Sun Feb 23 14:37:29 2025 
 Best design point: 1
 Design specs: 
 	FA24SP25Analog_testbench_comp_switch_tgate_4_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Sat Feb 22 21:25:48 2025 
+Current time: Sun Feb 23 14:37:40 2025 

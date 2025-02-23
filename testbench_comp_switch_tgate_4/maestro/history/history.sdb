@@ -15,8 +15,8 @@
 			<simdir>$AXL_PROJECT_DIR/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Feb 22 21:25:37 2025</timestamp>
-			<uuid>{fc41e3aa-9ec1-4807-8d3b-32078e8af7c1}</uuid>
+			<timestamp>Feb 23 14:37:28 2025</timestamp>
+			<uuid>{f78b9bb9-da3b-4b2c-b9be-c8dae34cb28f}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/art227/SKY130_PDK/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
