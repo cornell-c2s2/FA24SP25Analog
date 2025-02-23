@@ -2,9 +2,21 @@
 <setupdb version="7">history
 	<active>Active Setup</active>
 	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Feb 22 20:59:54 2025</timestamp>
+			<uuid>{7c2d6fd5-b469-4901-8c7c-6d4192f68130}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/art227/SKY130_PDK/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/art227/SKY130_PDK/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/art227/simulation/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Feb 22 16:05:54 2025</timestamp>
-			<uuid>{3fa5c1dd-ce3d-4a28-a749-64055b86b180}</uuid>
+			<timestamp>Feb 22 21:25:37 2025</timestamp>
+			<uuid>{fc41e3aa-9ec1-4807-8d3b-32078e8af7c1}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/art227/SKY130_PDK/FA24SP25Analog/testbench_comp_switch_tgate_4/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
