@@ -73,6 +73,9 @@
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
@@ -91,7 +94,7 @@
 				<value>yes</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>New SubWin</value>
+				<value>Replace</value>
 			</exploreroption>
 			<exploreroption>annotatedesignname
 				<value>yes</value>
