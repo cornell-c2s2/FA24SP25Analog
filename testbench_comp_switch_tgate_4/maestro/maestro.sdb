@@ -38,7 +38,7 @@
 				<iconvalue></iconvalue>
 				<icontype></icontype>
 				<active>
-					<mode>Extracted (Parasitics/LDE)</mode>
+					<mode>No Parasitics/LDE</mode>
 					<parameters>
 						<device>
 							<enabled>0</enabled>
@@ -104,7 +104,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -125,7 +125,7 @@
 				<value>yes</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -133,7 +133,7 @@
 				<value>(None)</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>Replace</value>
+				<value>Append</value>
 			</exploreroption>
 			<exploreroption>plottype
 				<value>Auto</value>

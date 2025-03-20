@@ -71,7 +71,10 @@
 				<value></value>
 			</plottingoption>
 			<plottingoption>distributedplot_enabled
-				<value>no</value>
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -91,7 +94,7 @@
 				<value>yes</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>New SubWin</value>
+				<value>Replace</value>
 			</exploreroption>
 			<exploreroption>annotatedesignname
 				<value>yes</value>
