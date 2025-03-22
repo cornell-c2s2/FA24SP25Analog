@@ -38,7 +38,7 @@
 				<iconvalue></iconvalue>
 				<icontype></icontype>
 				<active>
-					<mode>No Parasitics/LDE</mode>
+					<mode>Extracted (Parasitics/LDE)</mode>
 					<parameters>
 						<device>
 							<enabled>0</enabled>
@@ -104,7 +104,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>New Win</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -124,10 +124,16 @@
 			<plottingoption>distributedplot_enabled
 				<value>yes</value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>New Win</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>New Win</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
