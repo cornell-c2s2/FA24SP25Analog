@@ -2,7 +2,7 @@
 <stimuliset>
     <namedstimuli>
         <stimuliname>iout</stimuliname>
-        <timeStamp>23/01/2025;11:52:47:AM</timeStamp>
+        <timeStamp>22/03/2025;2:51:6:PM</timeStamp>
         <simStopTime>1n</simStopTime>
         <isourceResistorValue>1k</isourceResistorValue>
         <libname></libname>
@@ -21,7 +21,7 @@
                 <cdfname>idc</cdfname>
                 <prompt>DC current</prompt>
                 <datatype>string</datatype>
-                <value>30u</value>
+                <value>10u</value>
                 <defvalue></defvalue>
             </parameter>
         </parameterset>

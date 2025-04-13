@@ -194,7 +194,7 @@
 				<value>Replace</value>
 			</exploreroption>
 			<exploreroption>histogramtype
-				<value>pass/fail</value>
+				<value>standard</value>
 			</exploreroption>
 			<exploreroption>histogrambins
 				<value>20</value>
@@ -212,7 +212,7 @@
 				<value>yes</value>
 			</exploreroption>
 			<exploreroption>histogramqqplot
-				<value>no</value>
+				<value>yes</value>
 			</exploreroption>
 			<exploreroption>additionalcalcs
 				<value>yes</value>

@@ -314,6 +314,7 @@
 		<incrementalsimulationoptions>
 			<incrementalSimulation>0</incrementalSimulation>
 		</incrementalsimulationoptions>
+		<vars></vars>
 	</active>
 	<history>History
 	</history>
